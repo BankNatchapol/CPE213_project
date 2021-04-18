@@ -1,7 +1,7 @@
 # CPE213_project
 โปรเจ็คนี้เป็นส่วนหนึ่งของรายวิชา CPE213 Data model จัดทำโดย นักศึกษาวิศวกรรมคอมพิวเตอร์ ชั้นปี 3 มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
 ### Developer Team
-Member in team : 'PFuzesangluis team' 
+Member in team : 'POntSangLuis team' 
 > * :woman: Ms.Natchariya Wongamnuayporn 61070507204
 > * :man: Mr.Natchapol Patamawisut 61070507205
 > * :man: Ms.Rungwigrai Payakkanuwat 61070507219
