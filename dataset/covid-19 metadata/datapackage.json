@@ -1,0 +1,143 @@
+{
+  "author": {
+    "email": "satcovid1@ddc.mail.go.th",
+    "name": "กรมควบคุมโรค"
+  },
+  "description": "รายงานผู้ป่วยยืนยันประจำวัน จาก กรมควบคุมโรค\r\n\r\nสามารถติดตามสถานการณ์ได้ที่ https://ddc.moph.go.th/viralpneumonia/ และ https://covid19.th-stat.com/\r\n\r\nOpen API :) สำหรับนักพัฒนา: https://covid19.th-stat.com/th/api\r\n\r\nข้อมูลผู้ติดเชื้อรายเคสจะมีจำนวนไม่เท่ากับยอดรายงานผลรวมในปัจจุบัน เพราะกรมควบคุมโรคต้องดำเนินการตรวจสอบข้อมูลในรายเคสให้มีถูกต้องก่อนทำการเผยแพร่ ซึ่งการใช้งาน API ของ สพร หรือ API ของกรมควบคุมโรค จะเป็นยอดจำนวนผู้ติดเชื้อที่น้อยกว่ายอดรวมปัจจุบัน",
+  "keywords": [
+    "COVID-19",
+    "COVID19",
+    "สาธารณสุข",
+    "โควิด",
+    "โคโรน่า",
+    "โรคติดต่อ"
+  ],
+  "license": {
+    "title": "DGA Open Government License",
+    "type": "ogl"
+  },
+  "name": "covid-19-daily",
+  "resources": [
+    {
+      "format": "CSV",
+      "name": "raayngaancchamnwnphuutidechuue-covid-19-pracchamwan",
+      "path": "raayngaancchamnwnphuutidechuue-covid-19-pracchamwan.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "No.",
+            "type": "number"
+          },
+          {
+            "name": "announce_date",
+            "type": "datetime"
+          },
+          {
+            "name": "Notified date",
+            "type": "datetime"
+          },
+          {
+            "name": "sex",
+            "type": "string"
+          },
+          {
+            "name": "age",
+            "type": "number"
+          },
+          {
+            "name": "Unit",
+            "type": "string"
+          },
+          {
+            "name": "nationality",
+            "type": "string"
+          },
+          {
+            "name": "province_of_isolation",
+            "type": "string"
+          },
+          {
+            "name": "risk",
+            "type": "string"
+          },
+          {
+            "name": "province_of_onset",
+            "type": "string"
+          },
+          {
+            "name": "district_of_onset",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.go.th/dataset/8a956917-436d-4afd-a2d4-59e4dd8e906e/resource/b4a75b94-96a5-493b-92e8-e006b58a4be2/download/pm-17-04-64-editv1.csv",
+          "title": "รายงานจำนวนผู้ติดเชื้อ COVID-19 ประจำวัน"
+        }
+      ],
+      "title": "รายงานจำนวนผู้ติดเชื้อ COVID-19 ประจำวัน"
+    },
+    {
+      "format": "HTML",
+      "name": "raayngaancchamnwnphuutidechuue-covid-19-pracchamwan0",
+      "path": "raayngaancchamnwnphuutidechuue-covid-19-pracchamwan0.html",
+      "sources": [
+        {
+          "path": "https://ddc.moph.go.th/viralpneumonia/index.php",
+          "title": "รายงานจำนวนผู้ติดเชื้อ COVID-19 ประจำวัน"
+        }
+      ],
+      "title": "รายงานจำนวนผู้ติดเชื้อ COVID-19 ประจำวัน"
+    },
+    {
+      "format": "XLSX",
+      "name": "covid-19-daily-data-dictionary",
+      "path": "covid-19-daily-data-dictionary.xlsx",
+      "schema": {
+        "fields": [
+          {
+            "name": "attribute",
+            "type": "string"
+          },
+          {
+            "name": "data_type",
+            "type": "string"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "name": "data_scope",
+            "type": "string"
+          },
+          {
+            "name": "data_size",
+            "type": "string"
+          },
+          {
+            "name": "mandatory_field",
+            "type": "string"
+          },
+          {
+            "name": "characteristic",
+            "type": "string"
+          },
+          {
+            "name": "data_format",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.go.th/dataset/8a956917-436d-4afd-a2d4-59e4dd8e906e/resource/402c7fd6-31a5-41b4-ab86-5257550ecaf0/download/covid-19-daily_data_dictionary.xlsx",
+          "title": "covid-19-daily_data_dictionary"
+        }
+      ],
+      "title": "covid-19-daily_data_dictionary"
+    }
+  ],
+  "title": "รายงาน COVID-19 ประจำวัน ข้อมูลประจำประเทศไทย"
+}
